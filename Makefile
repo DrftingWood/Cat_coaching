@@ -4,9 +4,14 @@
 #   make high    FILE=videos/quant/arithmetic/001_percentages_basics/scenes.py SCENE=Intro
 #   make fourk   FILE=videos/quant/arithmetic/001_percentages_basics/scenes.py SCENE=Intro
 #   make clean
+#
+# Always run from the repo root. PYTHONPATH is set to the repo root so that
+# `from lib import ...` inside any videos/**/scenes.py resolves.
 
 FILE  ?=
 SCENE ?=
+
+export PYTHONPATH := $(CURDIR)
 
 .PHONY: preview high fourk clean check
 
