@@ -1,0 +1,17 @@
+{
+  "python.defaultInterpreterPath": "/usr/local/bin/python",
+  "python.analysis.extraPaths": ["."],
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "media": true
+  },
+  "search.exclude": {
+    "media": true,
+    "**/__pycache__": true
+  },
+  "files.associations": {
+    "*.md": "markdown"
+  }
+}
