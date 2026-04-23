@@ -8,7 +8,7 @@ publish.
 
 ### Arithmetic (`videos/quant/arithmetic/`)
 - [ ] 001_percentages_basics
-- [ ] Ratios & proportions
+- [ ] 002_ratios_proportions
 - [ ] Averages, mixtures, alligations
 - [ ] Profit, loss, discount
 - [ ] Simple & compound interest
@@ -69,4 +69,5 @@ List videos here in the order they go live, independent of topic. This is the
 public-facing roadmap.
 
 1. `quant/arithmetic/001_percentages_basics`
-2. _to be added_
+2. `quant/arithmetic/002_ratios_proportions`
+3. _to be added_
